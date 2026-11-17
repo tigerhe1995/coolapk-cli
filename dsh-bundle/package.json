@@ -1,0 +1,10 @@
+{
+  "name": "@local/dsh-coolapk-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "酷安 MCP 服务：让 DSH 直接读取和发布酷安内容",
+  "exports": { "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg" },
+  "files": ["cordis.patch.yml", "locale/*.json", "docs", "icon.svg"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

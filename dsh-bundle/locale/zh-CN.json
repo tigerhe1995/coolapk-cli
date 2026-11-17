@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "酷安 MCP 服务",
+    "description": "让 DeepSeek Harness 直接读取和发布酷安内容。接入后获得 18 个工具：游客态即可浏览首页推荐、热门榜、最新动态、话题、搜索、用户主页与评论；导入账号 Cookie 后可发布动态、评论、点赞、关注用户与话题。凭据只保存在本机 %USERPROFILE%\\.coolapk-cli\\state.json，不上传任何第三方。关闭本插件后所有酷安工具立即不可用。"
+  }
+}

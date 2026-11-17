@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Coolapk MCP server",
+    "description": "Lets DeepSeek Harness read and publish Coolapk content. Adds 18 tools: browse the home feed, hot ranking, latest posts, topics, search, user profiles and comments as a guest; after importing an account cookie it can also publish posts, comment, like, and follow users and topics. Credentials stay in the local %USERPROFILE%\\.coolapk-cli\\state.json file and are never sent to a third party. Turning this plugin off removes every Coolapk tool immediately."
+  }
+}

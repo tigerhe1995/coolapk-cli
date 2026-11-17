@@ -1,0 +1,18 @@
+# DSH bundle patch：注册酷安 MCP 服务
+#
+# 安装前请把下面两处改成你自己的路径：
+#   command  → Python 解释器绝对路径
+#   args[0]  → mcp_server.py 的绝对路径
+#
+# 装法：把本目录作为 bundle 安装（DSH「插件 → 添加插件 → 本地目录」），或在 DSH 里
+# 用 plugin_manager 的 install_bundle，target 指向本目录。
+- insert:
+    - id: coolapk
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: coolapk
+        transport: stdio
+        command: C:\Users\Administrator\AppData\Local\Python\bin\python.exe
+        args:
+          - 'F:\04.DSH\work\coolapk-cli\mcp_server.py'
+        failOnStartupError: false
